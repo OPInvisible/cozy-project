@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: seashell;
+  list-style: none;
+  opacity: 0.9;
+}
+body {
+  background-color: black;  
+}
+
+h2, p {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: underline;
+  padding: 0 1rem;
+}
+
+header img {
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+section.main {
+  margin: 70px auto;
+  width: 1200px;
+  height: 600px;
+  background: url("images/main-img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section.main div {
+  background: rgba(0, 0, 0, 1);
+  height: 90px;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 84.2%;
+  transform: translate(-50%, -50%);
+}
+
+section.main div h2 {
+  margin-top: 10px;
+}
+
+section.main div h3 {
+  margin-top: 15px;
+  margin-left: 170px;
+}
+
+section.s2 {
+  margin-top: 20px;
+}
+
+section.s2 h3 {
+  margin-top: 25px;
+  margin-left: 570px;
+}
+
+section.s2 div nav div img {
+  margin-top: 30px;
+  height: 200px;
+  width: 300px;
+}
+
+
+section.s2 > div > nav {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+section.s2 div > nav > div > p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.last-section {
+  background: url("images/footer-img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 1200px;
+  margin: 70px auto; 
+  position: relative;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.last-section p {
+  font-weight: bolder;
+  font-size: 28px;
+  background: transparent;
+
+}
+.l-flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(13, 12, 12, 0.999);
+  width: 300px;
+  padding: 10px 30px;
+  margin: 0 30px;
+}
+.box .op-text {
+  background-color: rgba(13, 12, 12, 0.999);
+ line-height: 4;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+
+.last-p {
+  position: absolute;
+  margin-bottom: 350px;
+}
+
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+footer h5,h4 {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.main-text {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0 10px 20px;
+}
